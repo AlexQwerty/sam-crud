@@ -1,0 +1,21 @@
+{
+    "name": "samalex/sam-crud",
+    "description": "simple crud",
+    "type": "yii2-extension",
+    "keywords": ["yii2","crud"],
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "Alex",
+            "email": "alex@samyk.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "crud\\": ""
+        }
+    }
+}
