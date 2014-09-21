@@ -8,7 +8,7 @@ Installation
 
 Usage
 -----
-0)Controller
+0) Controller
 ```
 ...
 use samalex\crud\controllers\CrudController;
@@ -20,7 +20,7 @@ class PostController extends CrudController {
 ```
 localhost/yii2/web/post/all
 
-1)without controller
+1) Without controller
 config/web.php
 ```
 ...
@@ -34,7 +34,7 @@ config/web.php
 ...
 ```
 
-2)In actions
+2) In actions
 ```
 ...
 use samalex\crud\controllers\actions;
@@ -58,7 +58,7 @@ Custom view, model
 ...
 use samalex\crud\controllers\actions;
 
-class SomeController extends Controller {
+class PostController extends Controller {
 
     public function actions() {
        return array_merge(parent::actions(), [
@@ -71,7 +71,7 @@ class SomeController extends Controller {
 ...
 ```
 
-custom columns 
+Custom columns 
 In seach/model
 ```
 ...
